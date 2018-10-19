@@ -1,4 +1,17 @@
-baseURL = "http://example.org/"
+baseURL = "https://fthevenet.eu/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "You've reached the website of frederic thevenet. Please leave a message after the tone."
 theme = "sam"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "Hello, Im fred."
+
+[[params.mainMenu]]
+    link = "https://github.com/fthevenet"
+    text = "github."
+
+[[params.mainMenu]]
+    link = "https://www.binjr.eu"
+    text = "binjr."
+

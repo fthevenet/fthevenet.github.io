@@ -1,0 +1,3 @@
+[submodule "origin"]
+	path = themes/sam
+	url = https://github.com/fthevenet/hugo-theme-sam.git

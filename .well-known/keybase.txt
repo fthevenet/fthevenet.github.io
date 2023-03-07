@@ -21,6 +21,16 @@ To do so, I am signing this object:
       "uid": "b6e5950bcab23dd4545795680e4cd419",
       "username": "fthevenet"
     },
+    "merkle_root": {
+      "ctime": 1678193265,
+      "hash_meta": "8705ddbc662700c51f9c28d29b4b3abae8a630ff7c93a538303a6c80b88887f2",
+      "seqno": 24158955
+    },
+    "revoke": {
+      "sig_ids": [
+        "7b54e558306f71730cbeae0207b9344af797c98685f64b8401e1f18cbbec24a10f"
+      ]
+    },
     "service": {
       "hostname": "fthevenet.eu",
       "protocol": "https:"
@@ -28,10 +38,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1678117233,
+  "ctime": 1678193272,
   "expire_in": 157680000,
-  "prev": "aa35ae3588f52c251afc0704658b1979a4333103017ffd09e4296f2ceca4cacc",
-  "seqno": 3,
+  "prev": "cd6fa96f9acdc0877f5175b2b31bda08d3f738e821248e7d7afdd6a914ce9068",
+  "seqno": 12,
   "tag": "signature"
 }
 
@@ -39,29 +49,32 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtUm1QVFUYXhAJGBtoCom0Ee+UwLrgud/3rgbyKYoKilAm23I/zoUbsLvu3kUR
-sdHMD2AKIaWyko8kMyOswIFCR5mawXVyhjAUsWLaQAKEEBnwA7qXyT9NPzt/zpz3
-fZ7nfd73vOVPztP5eEy8ujyiqvqPcQ/XIK8TvX0LixDeKhYixiIkF85dME+EDsWc
-K4uIEQEoQDGKxgicwSkIeBpKFAYEERMlkQEEjqM8jgsUJ0g4y4qQEQmAEhJPoiwH
-JMBBHOdEwCEGRJIt2dBus8sWRZXlOYkUMBEDPAQojZIkhChgUBIDFMmJBM3jGAV5
-FlOJOVaHxlDN8ZwDRspWNaY+zHP2/gP/P/t2zsnxFCRZEvACx2O4KBIkQdIsSTEA
-EoJIoKwGdEC7hcuHKlpScmABtEAFKTYgarhAFqA2Wa2Vf0MioVMl2+xWxSpY89RM
-jqLYHEaNqRTaNOgOyJv/ETHzskVUB6kyCqDdIVstiBFVkYIia6ooRTMoSmM4bkDg
-Tptsh2ZZQ5C06lQ9Wh1YoEpyHE5ycCtOMoxEYgJGopwkABoQFMnwKEuznDohHAW4
-+jmSJAIWEhhLSZgABY4QOEFAtL62W6yIUS2lcNmqpkPOtnCK0w6RYr/DnriXzsNH
-9/zCpV4vTP3c4+xXuqToJ/wfL998T23zdH6+AY8jF3j/GXyiI2l2EXrlXteK4Ki8
-k5f2HZP/TOgcPn4/P6djU3xsShyS8l3YWv1QkODKvJ5LjJuHjbXny+YJVMeHYXJP
-XaApaSitcb5uZ7S72BB37ejtvOqlQeudmev9IzNKo987luDRX7ayMqqyJSLh5sb9
-a8oOLogWerCvJ6sOMKE1nc0n9cql9sb4tIf2z+m3XM9seX3b6aIr5i/DuwyHGr1N
-L9nc7oUNww3T3ct29cSE3C18asB3egzfWu685dMrvwbBTNSd6o8HMyP76iO8keFf
-V7k+cmSFbAr2a2p172kLjdlQfc5LP5CeLr7S/+DdErDqs9ODXfTliZefXbKdryk9
-0bdkNn02N8wd5dIH9l1cXTdiv008uhwUZvL+9oNtN7Ok6S/qar4fzDqzoGRAWlxS
-2z4YeOhWcEAzSK7/Zqbq04rwPI/Qq7P+J4bcW6b5sWV3+5HYttjStwPyI5iR1jYf
-NiN0X9tV/d5fTL0b8JTU0W6vYNNz+9uPn4K9aRcrHsXtGs9uPQzXtbScH1399KTh
-gf1IUqLnlD6x7+DekNyEKeSnis5F5un3zx79TSofc/3VfWNl/JkVpo1NzLrsa+av
-6htGR5JS6++07Nh9PWD3G6m99/LTaxov9DZ/ci7Z/eae5ZvDz1oT75tiMidT1kz6
-6m4ktf4+NvbDgR/fWfwwOTyYe7FJrMRPbS6qzfgb
-=OC0U
+owGtk3tsFEUcx6+0CBbFBggxVR5dSCBylNnH7Mw2lRZtS0IIyKNBaOkxszPTO67c
+nXfbw1oa5VWKUChqAZWCGImPtoGWQBUQeVtQ5FUJUQrVAuEhSa2IiECdayQmxD+d
+fzY7+/19f9/5/Haqnox39Y67NWvU6HUfXO6M++YadbFe2pJShQZZiZJWqvh594MX
+MR5xPH4fU9IUoAJVM5Fm6Fg3OaCIC1MDNtOYYBgYuq5SXbdNYgvdshjHzACqIShU
+LQIEIFzXCQNEcSvCFyjk4VDYF3CkLSUC2hrTAOVARSqEnKsAq1ADJiTMQFTXTE4t
+TRZ6g5FYhQxHSYSn+oJyT754uuP9h/5/zl3cbUdNDi0IqE2opjNmQAMiC5oYcMNm
+hmrFhBEeDpB5XKqF4+VRHuCOUuZW5vGwv4h7wsGgE6NrO76YRjURVi2ZGsoTkojX
+M487RJZiBCBj1DZNDQFgQ1VYtoaZZlGD6oQSjompAyGQbekEysMBnZg2BhTLhUQM
+QIS/EggqaZqhQmxBKCOEeTTo57HuEV+hBBdR0vIURPeVQINDKD1MgVSkA5tywoEG
+ELV0wyACWbINNjEUpkGxJMRVoWKbUm5rBlGBUGaXxfqFoz672z42q0cZpPJiGSoU
+DjpBO1gkv3gdJxRJi6FxSkIx6XxOPf+YeKgvwOSfIiuiPBzxBQMSlVQ+Qg1pboW/
+GvKFuccXU0AkRyFXrA+PSkubmYJYprCIzWyAERJQRZBqVM6dEYCZLpCOOdZUzcAc
+MUQEYyaxVMPmFjDxvxhV2cohhdJTsgsQpzjMlbLE5T30BFdcb9eggSkJw++c/aH4
+itMiMno99fB29ewRu1quxMeTHu5UZSe5Gt8ck6q99s6WmRhemzpt8JE5y26Yrc+6
+aiuGXEmaBIZfdQ3xDcts7Vv959DxB8+EPrk/9mpWNKu6Q8StyO5Z51R13tt2Pbq2
+eGNDSeLYjpXZ+eXptQ1L8u2J6xadzUlpb13dH+muvJ1TN2dc1BZMy8jpf/LWyR43
+zsT1/e79B5d+vFvaZ8Ppme7GyhETT/VLnt68JnOzk/prU6S6JveCWDgyfWvtnkXX
+5+8tu3u65sCuHdv3zp079kP8m9KVkPL618kb7zSfyrpX2ZbXPny3MbG+quL59K4v
+Mleh4y/f7fB+XNd0bkJFYPuk265VnbPHe66f2NeUV3nUXv6gae2xoy982lK/os+U
++pzguhFbbu7rWr70/PynR/t/z5rzrT83NLituXDp0NpZbETiW/HxneXLNoFN27xF
+8QM3lc1c7B7WQF56I68CNAzyNuLdyQvPD1g/rLMyZ/PJdzPOqZeSaxsfKxyn5H/+
+18q0tsVdSTtaCkb63XPG1F+49d6XDTkJqV9tOzTIfEwcH7oyNP38zl7lBZNr9t90
+Nuy4PcXd/seaxuo7+zfQg8fuHz/0ICX78opd6bUn9rSlrC8bkF9X4mkVn61OPzt5
+EUqs63Nk2bV7E36GvUsvXzzsyuQpu5+5MKTvi9NHPbH1o7nNNS03nqMd2437h2cV
+HRhX/cuC3OiMgszyBf1E7ve7+uGCczXt49/umOGZ9lPJ+r8B
+=qmXY
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -70,3 +83,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/fthevenet
 
 ==================================================================
+

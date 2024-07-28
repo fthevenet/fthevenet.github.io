@@ -156,6 +156,19 @@ hr {
     opacity: 0.8
 }
 
+.lang-selector {
+    font-family: "Didact Gothic", "sans serif";
+    font-size: .8rem;
+    text-align: right;   
+}
+
+.lang-selector a {
+    padding: .25rem;
+    border-style: solid;
+    border-radius: 100%; 
+    border-width: 0.1rem;
+}
+
 .footer a {
     border-bottom: none;
     display: contents

@@ -1,0 +1,24 @@
+{
+    "subject": "acct:fred@fthevenet.eu",
+    "aliases": [
+        "https://social.fthevenet.eu/@fred",
+        "https://social.fthevenet.eu/users/fred",
+        "fred@social.fthevenet.eu"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://social.fthevenet.eu/@fred"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://social.fthevenet.eu/users/fred"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://social.fthevenet.eu/authorize_interaction?uri={uri}"
+        }
+    ]
+}
